@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fire = ">=0.1.3"
+regex = ">=2017.4.5"
+requests = ">=2.21.0"
+tqdm = ">=4.31.1"
+tensorflow = "*"
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+importmagic = "*"
+epc = "*"
+python-lsp-server = {extras = ["all"], version = "*"}
+mypy = "*"
+black = {extras = ["jupyter"], version = "*"}
+python-lsp-black = "*"
+typing-extensions = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.8"
